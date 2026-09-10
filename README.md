@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/MartinMuzatko/gif-collection/master/hand-wave.gif" width="30px"> Olá! Eu sou Alice Borges
+# <img src="https://raw.githubusercontent.com/MartinMuzatko/gif-collection/master/hand-wave.gif" width="30px"> Olá! Eu sou Alice Borges Marques Guimarães
 
 <p align="left">
   🎓 <b>Estudante de Engenharia de Software</b> na <b>PUCPR</b><br>
