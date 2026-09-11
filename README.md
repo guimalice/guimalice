@@ -41,10 +41,6 @@ Atualmente, estou estudando e praticando principalmente:
 
 ---
 
-### 💻 Tecnologias & Ferramentas
-
----
-
 ### 🚀 Projetos
 
 🔹 **Projetos de Desenvolvimento Web**
