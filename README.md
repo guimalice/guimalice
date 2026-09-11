@@ -17,13 +17,7 @@ Atualmente, estou estudando e praticando principalmente:
 * 🌐 Desenvolvimento Web
 * 💻 HTML, CSS e JavaScript
 * 🐍 Python
-* 🗄️ Banco de Dados e SQL
-* 🔧 Git e GitHub
-* 🛡️ Cibersegurança
 * 🤖 Inteligência Artificial
-* 📊 Big Data
-* ⚙️ Engenharia de Requisitos
-* 🔌 Sistemas Ciberfísicos e IoT
 
 ---
 
