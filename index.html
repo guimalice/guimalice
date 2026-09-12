@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alice Guimarães — Estudante de Engenharia de Software</title>
+  <meta name="description" content="Portfólio de Alice Borges Marques Guimarães, estudante de Engenharia de Software na PUCPR.">
+
+  <!-- Tipografia: Space Grotesk (títulos) + Work Sans (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAVEGAÇÃO ===================== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#inicio" class="logo">Alice Borges Marques Guimarães<span class="dot">.</span></a>
+
+      <nav class="nav" id="nav">
+        <a href="#inicio" class="nav__link">Início</a>
+        <a href="#sobre" class="nav__link">Sobre</a>
+        <a href="#projetos" class="nav__link">Projetos</a>
+        <a href="#certificados" class="nav__link">Certificados</a>
+        <a href="#hobbies" class="nav__link">Hobbies</a>
+        <a href="#habilidades" class="nav__link">Habilidades</a>
+        <a href="#contato" class="nav__link">Contato</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="inicio">
+    <div class="hero__inner">
+      <div class="hero__text">
+        <h1 class="hero__title">
+          Olá, eu sou <span class="highlight">Alice<svg class="highlight__underline" viewBox="0 0 220 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M2 11.5C40 4 90 3 130 7C160 10 190 12 218 6"/></svg></span>.
+        </h1>
+        <p class="hero__role">Estudante de Engenharia de Software</p>
+        <p class="hero__tagline">Transformando ideias em projetos enquanto construo minha jornada na tecnologia.</p>
+
+        <div class="hero__actions">
+          <a href="#projetos" class="btn btn--primary">Ver meus projetos</a>
+          <a href="https://www.linkedin.com/in/guimarães-alice/" class="btn btn--ghost" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/guimalice" class="btn btn--ghost" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="hero__graphic" aria-hidden="true">
+        <svg viewBox="0 0 420 420" class="node-art">
+          <g class="node-art__lines">
+            <line x1="60" y1="80" x2="200" y2="140"></line>
+            <line x1="200" y1="140" x2="350" y2="90"></line>
+            <line x1="200" y1="140" x2="230" y2="270"></line>
+            <line x1="230" y1="270" x2="110" y2="330"></line>
+            <line x1="230" y1="270" x2="360" y2="310"></line>
+            <line x1="60" y1="80" x2="90" y2="220"></line>
+            <line x1="90" y1="220" x2="230" y2="270"></line>
+          </g>
+          <g class="node-art__nodes">
+            <circle cx="60" cy="80" r="7"></circle>
+            <circle cx="200" cy="140" r="10"></circle>
+            <circle cx="350" cy="90" r="6"></circle>
+            <circle cx="230" cy="270" r="9"></circle>
+            <circle cx="110" cy="330" r="6"></circle>
+            <circle cx="360" cy="310" r="6"></circle>
+            <circle cx="90" cy="220" r="6"></circle>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <a href="#sobre" class="scroll-cue" aria-label="Rolar para a próxima seção">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===================== SOBRE MIM ===================== -->
+  <section class="about" id="sobre">
+    <div class="section__inner about__grid">
+      <div class="about__heading">
+        <p class="eyebrow">Sobre mim</p>
+        <h2>Aprendendo e construindo, um projeto de cada vez.</h2>
+      </div>
+
+      <div class="about__content">
+        <p>
+          Sou estudante de Engenharia de Software na <strong>PUCPR</strong> — Pontifícia Universidade
+          Católica do Paraná — e estou construindo minha jornada na tecnologia através de projetos
+          acadêmicos, cursos e experiências práticas.
+        </p>
+        <p>
+          Tenho interesse em desenvolvimento de software e gosto de aprender colocando a mão na massa.
+          Cada projeto tem sido uma oportunidade para transformar o que aprendo em algo real.
+        </p>
+
+        <div class="about__tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Python</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJETOS ===================== -->
+  <section class="projects" id="projetos">
+    <div class="section__inner">
+      <p class="eyebrow">Projetos</p>
+      <h2>O que venho construindo</h2>
+      <p class="section__lead">
+        Dois projetos que mostram como venho colocando em prática o que aprendo — da ideia ao código.
+      </p>
+
+      <!-- Projeto 1: Receitas dos Borges -->
+      <article class="project">
+        <div class="project__visual">
+          <div class="browser-mock">
+            <div class="browser-mock__bar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="browser-mock__body">
+              <p class="browser-mock__title">Receitas dos Borges</p>
+              <div class="browser-mock__cards">
+                <img src="images/receitas-thumb-1.jpg" alt="Prévia: Lasanha de frango">
+                <img src="images/receitas-thumb-2.jpg" alt="Prévia: Torta banoffee">
+                <img src="images/receitas-thumb-3.jpg" alt="Prévia: Macarronada">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__info">
+          <h3>Receitas dos Borges</h3>
+          <div class="project__tags">
+            <span class="tag tag--outline">HTML</span>
+            <span class="tag tag--outline">CSS</span>
+            <span class="tag tag--outline">JavaScript</span>
+          </div>
+          <p>
+            Um site desenvolvido para reunir receitas da família Borges em um só lugar, transformando
+            receitas do dia a dia em uma experiência simples e organizada.
+          </p>
+          <ul class="project__features">
+            <li>Organização das receitas por categorias</li>
+            <li>Pesquisa de receitas</li>
+            <li>Cards de receitas com botão para ver ingredientes</li>
+            <li>Interação em JavaScript</li>
+            <li>Layout responsivo</li>
+          </ul>
+          <div class="project__actions">
+            <a href="https://guimalice.github.io/receitas-dos-borges/" class="btn btn--primary" target="_blank" rel="noopener">Ver projeto</a>
+            <a href="https://github.com/guimalice/receitas-dos-borges.git" class="btn btn--ghost" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Projeto 2: Tech Sprint PoliWomen Renault -->
+      <article class="project project--reverse">
+        <div class="project__visual">
+          <img class="project__image" src="images/projeto-renault.jpg" alt="Cartaz do TechSprint PoliWomen Renault 2026, Pitch Day">
+        </div>
+
+        <div class="project__info">
+          <h3>Tech Sprint PoliWomen Renault 2026</h3>
+          <div class="project__tags">
+            <span class="tag tag--outline">Trabalho colaborativo</span>
+            <span class="tag tag--outline">Prototipagem</span>
+            <span class="tag tag--outline">Sprint</span>
+          </div>
+          <p>
+            Participação no TechSprint PoliWomen Renault 2026, uma experiência prática e colaborativa
+            voltada ao desenvolvimento de soluções tecnológicas para um desafio proposto pela Renault.
+          </p>
+          <ul class="project__features">
+            <li>Desenvolvimento de soluções para encaixes de peças metálicas</li>
+            <li>Atividades práticas e trabalho colaborativo</li>
+            <li>Criatividade no desenvolvimento de soluções tecnológicas</li>
+            <li>Participação em sprints de projeto</li>
+            <li>Carga horária de 12 horas</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== CERTIFICADOS ===================== -->
+  <section class="certificates" id="certificados">
+    <div class="section__inner">
+      <p class="eyebrow">Certificados</p>
+      <h2>Certificações e cursos</h2>
+      <p class="section__lead">Clique em um certificado para ver em tamanho maior.</p>
+
+      <div class="cert-grid">
+        <button class="cert-card" data-img="images/certificado-html-intro.jpg" data-name="Introdução ao HTML na Prática">
+          <img src="images/certificado-html-intro.jpg" alt="Certificado: Introdução ao HTML na Prática">
+          <div class="cert-card__info">
+            <h3>Introdução ao HTML na Prática</h3>
+            <p>Dio.pro</p>
+            <p class="cert-card__meta">2 horas · 08 de agosto de 2026</p>
+          </div>
+        </button>
+
+        <button class="cert-card" data-img="images/certificado-estruturando-html.jpg" data-name="Estruturando seu HTML + Formatações">
+          <img src="images/certificado-estruturando-html.jpg" alt="Certificado: Estruturando seu HTML + Formatações">
+          <div class="cert-card__info">
+            <h3>Estruturando seu HTML + Formatações</h3>
+            <p>Dio.pro</p>
+            <p class="cert-card__meta">2 horas · 09 de agosto de 2026</p>
+          </div>
+        </button>
+
+        <button class="cert-card" data-img="images/certificado-midias.jpg" data-name="Trabalhando com Mídias utilizando HTML">
+          <img src="images/certificado-midias.jpg" alt="Certificado: Trabalhando com Mídias utilizando HTML">
+          <div class="cert-card__info">
+            <h3>Trabalhando com Mídias utilizando HTML</h3>
+            <p>Dio.pro</p>
+            <p class="cert-card__meta">1 hora · 09 de agosto de 2026</p>
+          </div>
+        </button>
+
+        <button class="cert-card" data-img="images/certificado-formularios.jpg" data-name="Trabalhando com Formulários em HTML">
+          <img src="images/certificado-formularios.jpg" alt="Certificado: Trabalhando com Formulários em HTML">
+          <div class="cert-card__info">
+            <h3>Trabalhando com Formulários em HTML</h3>
+            <p>Dio.pro</p>
+            <p class="cert-card__meta">2 horas · 09 de agosto de 2026</p>
+          </div>
+        </button>
+
+        <button class="cert-card" data-img="images/certificado-ingles.jpg" data-name="Certificate of Proficiency in English">
+          <img src="images/certificado-ingles.jpg" alt="Certificado: Certificate of Proficiency in English">
+          <div class="cert-card__info">
+            <h3>Certificate of Proficiency in English</h3>
+            <p>Phil Young's English School</p>
+            <p class="cert-card__meta">Fevereiro de 2026</p>
+          </div>
+        </button>
+
+        <button class="cert-card" data-img="images/certificado-Primeiros-passos-em-IA-e-Cloud.jpg" data-name="Certificado: Primeiros passos em IA e Cloud">
+          <img src="images/certificado-Primeiros-passos-em-IA-e-Cloud.jpg" alt="Certificado: Primeiros passos em IA e Cloud">
+          <div class="cert-card__info">
+            <h3> Primeiros passos em IA e Cloud</h3>
+            <p>Nublifyd, DiO.</p>
+            <p class="cert-card__meta"> 1 hora · concluido em 05 de Agosto de 2026</p>
+          </div>
+        </button>
+  
+        <button class="cert-card" data-img="images/certificado-smart-city.jpg" data-name="Certificado de Participação Smart City Expo Curitiba">
+          <img src="images/certificado-smart-city.jpg" alt="Certificado: SMARTCITY EXPO CURITIBA">
+          <div class="cert-card__info">
+            <h3>Certificado de Participação Smart City Expo Curitiba</h3>
+            <p>Smart City Expo Curitiba</p>
+            <p class="cert-card__meta">25, 26 e 27 de março de 2026 · 27 horas</p>
+          </div>
+        </button>
+
+        <button class="cert-card" data-img="images/certificado-renault.jpg" data-name="TechSprint PoliWomen Renault 2026">
+          <img src="images/certificado-renault.jpg" alt="Certificado: TechSprint PoliWomen Renault 2026">
+          <div class="cert-card__info">
+            <h3>PoliWomen Renault 2026</h3>
+            <p>TechSprint PoliWomen Renault 2026</p>
+            <p class="cert-card__meta">12 horas · abril a maio de 2026</p>
+          </div>
+        </button>
+        </div>
+      </div>
+  </section>
+
+  <!-- Modal de certificado -->
+  <div class="modal" id="certModal">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__content">
+      <button class="modal__close" id="modalClose" aria-label="Fechar">&times;</button>
+      <img id="modalImage" src="" alt="">
+      <p id="modalCaption"></p>
+    </div>
+  </div>
+
+  <!-- ===================== HOBBIES ===================== -->
+  <section class="hobbies" id="hobbies">
+    <div class="section__inner">
+      <p class="eyebrow">Hobbies</p>
+      <h2>Coisas que gosto de fazer fora da tecnologia.</h2>
+      <p class="section__lead">
+        Aqui estão dois dos meus principais hobbies: fotografia, para registrar lugares e momentos, e jogos, para me divertir e explorar novas histórias.
+      </p>
+
+      <!-- FOTOGRAFIA -->
+      <div class="hobby-section">
+        <div class="hobby-section__intro">
+          <p class="eyebrow">01 · Fotografia</p>
+          <h3>Olhares, lugares e momentos.</h3>
+          <p>
+            Gosto de fotografar paisagens, animais, viagens e aqueles momentos simples que acabam virando boas lembranças.
+          </p>
+        </div>
+
+        <div class="photo-gallery">
+          <figure class="photo-card photo-card--large">
+            <img src="images/hobbies/praia.jpg" alt="Pessoa e criança observando o mar na praia">
+          </figure>
+          <figure class="photo-card">
+            <img src="images/hobbies/por-do-sol.jpg" alt="Pôr do sol sobre o mar visto através de uma janela">
+          </figure>
+          <figure class="photo-card">
+            <img src="images/hobbies/paisagem-mar.jpg" alt="Paisagem do litoral com mar e cidade ao fundo">
+          </figure>
+          <figure class="photo-card">
+            <img src="images/hobbies/coruja.jpg" alt="Coruja pousada em uma cerca">
+          </figure>
+          <figure class="photo-card">
+            <img src="images/hobbies/gatinha.jpg" alt="Gato olhando pela janela durante o pôr do sol">
+          </figure>
+        </div>
+      </div>
+
+      <!-- JOGOS -->
+      <div class="hobby-section hobby-section--games">
+        <div class="hobby-section__intro">
+          <p class="eyebrow">02 · Jogos</p>
+          <h3>Meu cantinho para jogar.</h3>
+          <p>
+            Também adoro videogames. Gosto principalmente de experiências com história, ação, exploração e aquele tipo de jogo que faz você perder a noção do tempo.
+          </p>
+        </div>
+
+        <div class="games-gallery">
+          <figure class="game-card">
+            <img src="images/hobbies/jogos-cod.jpg" alt="Tela de uma partida de Call of Duty no PlayStation">
+            <figcaption>Call of Duty</figcaption>
+          </figure>
+          <figure class="game-card">
+            <img src="images/hobbies/days-gone.jpg" alt="Days Gone na televisão">
+            <figcaption>Days Gone</figcaption>
+          </figure>
+          <figure class="game-card">
+            <img src="images/hobbies/wuchang.jpg" alt="Wuchang Fallen Feathers na televisão">
+            <figcaption>Wuchang: Fallen Feathers</figcaption>
+          </figure>
+          <figure class="game-card">
+            <img src="images/hobbies/resident-evil.jpg" alt="Resident Evil Village na televisão">
+            <figcaption>Resident Evil Village</figcaption>
+          </figure>
+        </div>
+    </div>
+  </section>
+
+  <!-- ===================== HABILIDADES ===================== -->
+  <section class="skills" id="habilidades">
+    <div class="section__inner">
+      <p class="eyebrow">Habilidades</p>
+      <h2>Tecnologias e conhecimentos</h2>
+      <p class="section__lead">Conhecimentos em desenvolvimento através de estudos, projetos acadêmicos e prática.</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-card__mark">&lt;/&gt;</span>
+          <h3>HTML</h3>
+          <p>Estrutura de páginas</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__mark">{ }</span>
+          <h3>CSS</h3>
+          <p>Estilização e layout</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__mark">JS</span>
+          <h3>JavaScript</h3>
+          <p>Interatividade</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__mark">Py</span>
+          <h3>Python</h3>
+          <p>Lógica e automação</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTATO ===================== -->
+  <section class="contact" id="contato">
+    <div class="section__inner contact__inner">
+      <p class="eyebrow eyebrow--light">Contato</p>
+      <h2>Vamos conversar?</h2>
+      <p class="contact__lead">
+        Estou sempre aberta a aprender, desenvolver novos projetos e conhecer novas oportunidades.
+      </p>
+
+      <div class="contact__actions">
+        <a href="https://www.linkedin.com/in/guimarães-alice/" class="btn btn--primary" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/guimalice" class="btn btn--ghost-light" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:alicebmg@icloud.com" class="btn btn--ghost-light">E-mail</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Alice Borges Marques Guimarães</p>
+    <p>Feito com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
